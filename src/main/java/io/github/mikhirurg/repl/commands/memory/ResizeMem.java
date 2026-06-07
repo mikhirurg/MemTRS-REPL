@@ -1,0 +1,20 @@
+package io.github.mikhirurg.repl.commands.memory;
+
+import io.github.mikhirurg.repl.commands.REPLCommand;
+
+public class ResizeMem implements REPLCommand {
+  private final int size;
+
+  public ResizeMem(int size) {
+    this.size = size;
+  }
+
+  public int getSize() {
+    return size;
+  }
+
+  @Override
+  public REPLSymbol replSymbol() {
+    return REPLSymbol.RESIZE_MEM;
+  }
+}
