@@ -2,6 +2,8 @@
 
 A simple REPL for experiments with Memory Term Rewriting Systems.
 
+Based on the extension for the "cora" term rewriting analyzer tool (extension: https://github.com/mikhirurg/cora, original: https://github.com/hezzel/cora).
+
 ```shell
 Welcome to MemTRS REPL v0.1
 memtrs> include memtrs/stdlib/mem ds/array.lctrs
